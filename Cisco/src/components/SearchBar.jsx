@@ -4,7 +4,7 @@ export default function SearchBar() {
             <div className="flex items-center bg-[#29a3db] rounded-full shadow">
                 <input type="text" 
                 placeholder="Encuentra un curso"
-                className="flex-1 outline-none text-gray-300 "
+                className="flex-1 outline-none text-gray-300 w-10 px-10 bg-transparent placeholder-gray-200"
                 />
                 <button className="bg-[#9ad1ec] rounded-full h-12 px-5">
                     🔍
