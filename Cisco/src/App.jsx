@@ -1,26 +1,27 @@
 import './App.css'
-import Header from './components/Header'
-import ActiveCourses from './components/ActiviteCourses'
-import Categories from './components/Categories'
-import PopularCourses from './components/PopularCourses'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Profile from './pages/profile';
+import Settings from './pages/settings';
+import Curso1 from './pages/Curso1';
+import Leccion1 from './pages/Leccion1';
 import ButtomNav from './components/BottonNav'
-import SavedCourses from './components/SavedCourses'
 
 function App() {
 
   return (
-    <>
-    <div className='min-h-screen bg-gradient-to-b from-sky-300 via-blue-500 to-purple-800 flex flex-col items-center'>
-      <Header/>
-      <div className='w-full max-w-sm p-4 rounded-t-3xl pb-20'>
-        <ActiveCourses/>
-        <Categories/>
-        <PopularCourses/>
-        <SavedCourses/>
+    <Router>
+      <div className='min-h-screen bg-gradient-to-b from-sky-300 via-blue-500 to-purple-800 flex flex-col items-center'>
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/curso_1" element={<Curso1/>} />
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/settings" element={<Settings />} />
+            <Route path="/leccion_1" element={<Leccion1/>} />
+          </Routes>
+          <ButtomNav/>
       </div>
-        <ButtomNav/>
-    </div>
-    </>
+    </Router>
   )
 }
 
