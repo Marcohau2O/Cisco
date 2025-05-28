@@ -12,6 +12,15 @@ export default function Home() {
       <div className='w-full max-w-sm p-4 rounded-t-3xl pb-20'>
         <ActiveCourses />
         <Categories />
+        <div className="flex justify-end my-4 -mb-7"> 
+        <div className="bg-white rounded-full p-2">
+          <img 
+            src="/src/assets/img/Smile.png" 
+            alt="Smiley icon"
+            className="w-8 h-8" 
+          />
+        </div>
+      </div>
         <PopularCourses />
         <SavedCourses />
       </div>
