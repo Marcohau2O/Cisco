@@ -2,11 +2,18 @@ import SearchBar from '../components/SearchBar'
 
 export default function Header() {
     return (
-        <header className="text-center bg-white rounded-b-4xl w-[28.4rem] h-[17rem]">
-            <img src="src\assets\img\LogoCisco.png" alt="Cisco Logo" className="m-5 w-18" />
-            <h1 className="text-[#87c1e4] font-semibold text-3xl">BIENVENIDO</h1>
-            <h2 className="text-[#29a3db] font-bold text-2xl">[NOMBRE]!</h2>
-            <SearchBar />
+        <header className="relative bg-white rounded-b-4xl w-[28.4rem] h-[17rem] pb-2">   
+            <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-[60%] h-8 bg-black rounded-b-2xl"></div> 
+            <div className="pt-8"> 
+                <img src="src\assets\img\LogoCisco.png" alt="Cisco Logo" className="mx-5 mt-5 w-18" /> 
+                <div className="px-[5%]">
+                    <h1 className="text-[#87c1e4] font-semibold text-3xl text-left">BIENVENIDO</h1>
+                    <h2 className="text-[#29a3db] font-bold text-3xl text-left">[NOMBRE]!</h2>
+                </div>
+                <div className="mt-4"> 
+                    <SearchBar />
+                </div>
+            </div>
         </header>
     )
 }

@@ -16,7 +16,7 @@ export default function SavedCourses() {
               key={idx}
               className="bg-opacity-20 p-2 rounded-xl text-white"
             >
-              <div className="aspect-square rounded-lg bg-gradient-to-tr bg-gray-500"></div>
+              <div className="aspect-square rounded-lg bg-[#95A4BD]"></div>
               <h3 className="mt-2 text-sm font-semibold">{item.title}</h3>
             </div>
           ))}
