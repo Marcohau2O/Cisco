@@ -6,7 +6,7 @@ import Settings from './pages/settings';
 import Curso1 from './pages/Curso1';
 import Leccion1 from './pages/Leccion1';
 import ButtomNav from './components/BottonNav'
-
+import Leccion from './pages/leccion';
 function App() {
 
   return (
@@ -18,6 +18,7 @@ function App() {
             <Route path="/profile" element={<Profile />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="/leccion_1" element={<Leccion1/>} />
+            <Route path="/leccion" element={<Leccion/>} />
           </Routes>
           <ButtomNav/>
       </div>
