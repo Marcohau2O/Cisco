@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Settings() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#47B4E2] to-[#544197] flex flex-col">
+    <div className="min-h-screen bg-gradient-to-b flex flex-col">
       <div className="w-full relative">
 
         <div className="bg-white rounded-b-3xl max-w-4xl mx-auto px-6 md:px-20 py-6 ">
@@ -20,7 +20,7 @@ export default function Settings() {
       </div>
 
       <div className="max-w-4xl mx-auto w-full px-6 md:px-20 pt-8 text-left">
-        <h2 className="text-white text-sm font-semibold ">Configuración</h2>
+        <h2 className="text-white text-xl font-semibold ">Configuración</h2>
         <p className="text-white text-sm text-[12px] grid grid-cols-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Iste praesentium quia vel corrupti eligendi fugit possimus,

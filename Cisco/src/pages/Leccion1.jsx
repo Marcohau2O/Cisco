@@ -7,7 +7,7 @@ import EvaluacionItem from "../components/componentsLesccion/EvaluacionItem";
 export default function Leccion_1() {
     return(
         <>
-        <div className="bg-white text-sky-500 rounded-b-3xl py- px-6 w-[28.4rem] h-[10rem] flex justify-between items-center">
+        <div className="relative z-10 bg-white text-sky-500 rounded-b-3xl py- px-6 w-[28.4rem] h-[10rem] flex justify-between items-center">
             <NavLink to="/">
                 <button> 
                     <IoIosArrowBack size={50}/>
@@ -17,7 +17,7 @@ export default function Leccion_1() {
             <h2 className="text-4xl font-bold -mb-15 flex-grow text-center">Lección 1</h2>
         </div>
 
-        <div className="bg-sky-300 h-[13rem] w-[28.4rem] flex items-center justify-center text-white text-lg font-semibold">
+        <div className="relative z-0 bg-sky-300 h-[12rem] w-[28.4rem] flex items-center justify-center text-white text-lg font-semibold -mt-4">
                 Imagen
         </div>
 

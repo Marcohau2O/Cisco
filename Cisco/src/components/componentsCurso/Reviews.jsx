@@ -22,7 +22,7 @@ export default function Reviews() {
   return (
     <>
     {reviews.map((review, idx) => (
-        <div key={idx} className="bg-white/20  bg-opacity-100 rounded-4xl p-6 m-12 flex items-center gap-5 shadow-md border-gray-200 w-[24rem] h-[7rem]">
+        <div key={idx} className="bg-white/20  bg-opacity-100 rounded-4xl p-6 m-5 flex items-center gap-5 shadow-md border-gray-200 w-[24rem] h-[7rem]">
             <img src={review.image} alt={`${review.name}'s profile`} className="w-12 h-12 rounded-full" />
             <div className="text-white flex flex-col">
                 <div className="flex items-center gap-40">

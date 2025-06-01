@@ -18,7 +18,7 @@ export default function Curso1() {
     return (
         <>
             
-            <div className="bg-white text-sky-500 rounded-b-3xl py-4 px-6 w-[28.4rem] h-[10rem] flex justify-between items-center">
+            <div className="relative z-10 bg-white text-sky-500 rounded-b-3xl py-4 px-6 w-[28.4rem] h-[10rem] flex justify-between items-center">
                 <NavLink to="/">
                     <button> 
                         <IoIosArrowBack size={50}/>
@@ -40,12 +40,12 @@ export default function Curso1() {
             </div>
 
             
-            <div className="bg-sky-300 h-[10rem] w-[28.4rem] flex items-center justify-center text-white text-lg font-semibold">
+            <div className="relative z-0 bg-sky-300 h-[12rem] w-[28.4rem] flex items-center justify-center text-white text-lg font-semibold -mt-4">
                 VIDEO
             </div>
 
             
-            <div className="w-[28.4rem] px-6 py-4 text-white flex gap-8">
+            <div className="w-[28.4rem] px-8 py-6 text-white flex gap-8">
                 
                 <div className="w-1/2">
                     <h3 className="font-bold mb-2">Descripción</h3>

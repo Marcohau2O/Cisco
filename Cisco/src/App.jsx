@@ -11,7 +11,7 @@ function App() {
 
   return (
     <Router>
-      <div className='min-h-screen bg-gradient-to-b from-[#47B4E2] to-[#544197] flex flex-col items-center'>
+      <div className='min-h-screen bg-gradient-to-b from-sky-300 via-blue-500 to-[#544197] flex flex-col items-center'>
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/curso_1" element={<Curso1/>} />
