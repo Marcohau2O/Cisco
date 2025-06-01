@@ -52,10 +52,15 @@ export default function EvaluacionItem() {
                         <FaRegCircle/>
                         </div>
                     </p>
+
+                    
+                    <button className="bg-[#48B1E0] text-white px-12 py-2 rounded-full mt-4 mx-auto block w-[80%]">
+                        Enviar
+                    </button>
                 </div>   
             )}
             </div>
         </div>
         </>
     )
-} 
+}

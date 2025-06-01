@@ -4,19 +4,19 @@ export default function Reviews() {
             name: 'Veronica',
             time: 'hace 1 día',
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales mollis tincidunt. Ut lobortis tellus a lacus pretium pharetra.',
-            image: 'url_de_la_imagen_de_veronica'
+            image: 'src/assets/img/Veronica.jpg'
         },
         {
             name: 'Willy',
             time: 'hace 1 día',
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales mollis tincidunt. Ut lobortis tellus a lacus pretium pharetra.',
-            image: 'url_de_la_imagen_de_willy'
+            image: 'src/assets/img/Willy.png'
         },
         {
             name: 'Alfred',
             time: 'hace 1 día',
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales mollis tincidunt. Ut lobortis tellus a lacus pretium pharetra.',
-            image: 'url_de_la_imagen_de_alfred'
+            image: 'src/assets/img/Alfredo.png'
         }
     ]
   return (

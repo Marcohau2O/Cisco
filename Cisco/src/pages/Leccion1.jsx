@@ -29,7 +29,7 @@ export default function Leccion_1() {
                 </p>
 
                 <div className="flex items-center justify-center">
-                    <img src="" alt="imagen de industrial" className="w-[23rem] h-[10rem] border-black bg-white shadow-xl rounded-lg"/>
+                    <img src="src\assets\img\Grafica.png" alt="imagen de industrial" className="w-[23rem] h-[10rem] border-black bg-white shadow-xl rounded-lg"/>
                 </div>
 
                 <h3 className="font-bold mb-2 text-lg pt-5">Titulo de tema</h3>
